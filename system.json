@@ -24,7 +24,7 @@
       "distance": 1,
       "units": "m"
     },
-    "url": "https://github.com/rf-eggnine/Eggnine.Fvtt.MinimalSystem/",
+    "url": "https://raw.githubusercontent.com/rf-eggnine/Eggnine.Fvtt.MinimalSystem/refs/heads/main/system.json",
     "manifest": "systems/MinimalSystem/system.json",
     "download": ""
   }
