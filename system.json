@@ -1,8 +1,8 @@
 {
     "id": "MinimalSystem",
     "title": "Minimal System",
-    "description": "This is a minimal system for testing purposes",
-    "version": "0.1.5",
+    "description": "This is a minimal (SheetsV1) system for testing purposes",
+    "version": "1.0.0",
     "compatibility": {
       "minimum": 12,
       "verified": 12
@@ -12,34 +12,19 @@
       "email": "rf@eggnine.com",
       "discord": "rf_x"
     }],
-    "esmodules": ["MinimalSystem.mjs", "handlebars-application.mjs"],
-    "socket": false,
-    "initiative": "1d20",
-    "languages": [
-      {
-        "lang": "en",
-        "name": "English",
-        "path": "en.json"
-      }
-    ],
     "documentTypes": {
-    "Actor": {
-      "actor": {
+      "Actor": {
+        "actor": { }
+      },
+      "Item": {
+        "item": { }
       }
     },
-    "Item": {
-      "item":
-      {
-      }
-    }
-  },
     "grid": {
       "distance": 1,
       "units": "m"
     },
-    "primaryTokenAttribute": "resources.health",
-    "secondaryTokenAttribute": "resources.power",
     "url": "https://github.com/rf-eggnine/Eggnine.Fvtt.MinimalSystem/",
-    "manifest": "systems/minSystem/system.json",
+    "manifest": "systems/MinimalSystem/system.json",
     "download": ""
   }
